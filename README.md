@@ -43,7 +43,7 @@ This repository documents my journey of making a comeback, my ability to learn f
 
 ## What I'm Learning
 
-Phase 1 :Java fundamentals + DSA theory  
+Phase 1 :Java fundamentals + DSA theory 
 Phase 2 :OOP + Data structures + Competitive programming  
 Phase 3 :Algorithms + Portfolio project  
 Phase 4 :Specialization + Interview prep  
