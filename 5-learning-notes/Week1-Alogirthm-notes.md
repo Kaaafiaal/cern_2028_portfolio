@@ -123,10 +123,79 @@ Now we look at space complexity-- A = n ; because it can hold a lot of number an
                                 
 
 
-Sum of two matrices-------------------------------------
-Alogirthm add(A,B,n)
-{
-   for(i=0;i<n;i++) 
-      {
-         for()
+
+IMPORTANT----------
+ VERY TEDIOUS CLARIFICATION THAT WILL HELP ME A LOT--------
+
+for(i=0; i<n ; i++) {
+
+ statement; 
+
+}
+
+so everytime for loop is executed n+1 times , statement executes n times ; total 2n+1 times 
+
+but does bari along with universe's entire faculty or comp genius rite 2n+1? NO 
+WHY?______lets have a look;
+in reality the computer is actually exeecuting 2n+1 times undoubtedly 
+the reason everyone uses just the n+1 shorthand is because they are setting us up for the ultimate rule of thumb in algorith mdesign; When the input approaches infinity under that limit test, i dont need to stress over the line by line code, i can use the "industry" standard shortcuts to find the runtime instantly
+
+
+
+
+
+_________________***********So the question is HOW DO WE COUNT?*************************__________________________________________________________________________________
+
+We must know that instead of counting how many times a line executes
+
+We dont really care how many times a computer executes a code, we only care if it's EFFICIENT or not---> 
+Order 
+
+so 
+
+1. The Single Linear Loop →O(n)
+If a loop starts at 0 (or n) and steps forward (or backward) by a constant addition/subtraction (like i++ or i--), the dominant force is strictly linear.
+
+for (i = 0; i < n; i++) { ... }
+ explanation: Since it follows a constant addition/sub progression this will immediately be O(n)
+we dont need to figure out if it's 2n+1 or n+1 or whatever but still we should check if it becomes n+1 or 2n+1 because then we'd be able to decide only that it's O(n) and not o(n^2)
+
+
+
+
+
+2. The Standard Nested Loop →O(n^2)
+When you stack one linear loop inside another linear loop, the inner loop has to run its entire cycle every single time the outer loop takes one step.
+for (i = 0; i < n; i++) {
+    for (j = 0; j < n; j++) {
+        statement;
+    }
+}
+
+explanation: You are multiplying a linear process by a linear process (n×n). The precise operation count might be something chaotic like 3n^2+5n+2, but when n approaches infinity, the n^2 term completely dwarfs everything else. It instantly simplifies to O(n^2) (Quadratic time).
+
+
+
+
+3. The Logarithmic Loop --->  O(log n)
+What if the loop counter doesn't step by $1$, but instead multiplies or divides by $2$ on every single turn?
+
+for (i = 1; i < n; i = i * 2) { ... }
+
+Explanation: Because the index doubles every step ($1, 2, 4, 8, 16...$), it flies through the dataset incredibly fast. It reaches $n$ in a tiny fraction of the time. This introduces a logarithm under the limit test. Any loop that repeatedly cuts the problem size in half or doubles its stride is $O(\log n)$.
+
+WHICH ARE  THE BEST--------------------------------------------------------------------------
+
+1. O(1) Constant time (The Gold Standard)
+the execution time stays exactly the same no matter how much data i throw at it
+
+2. O(log n) --> excellent
+Algorithm cuts the problem size in half with every single step it takes
+
+3.O(n)---> Linear time (good/fair) 
+The execution time grows in direct, perfect proportion to the size of the input data
+
+4.O(n^2)----> (horrible/bad) 
+the execution time grows proportionally to the square of the input size. this usually happens when u have a loop running inside another loops (nested loops) 
+
 
