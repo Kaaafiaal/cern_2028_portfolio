@@ -1,3 +1,4 @@
+// Basic user input and checking whether the input is divisible or not
 import java.util.Scanner;
 public class DivisibilityProblem{
     public static void main(String [] args){
