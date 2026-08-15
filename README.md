@@ -13,7 +13,7 @@ I'm on a journey to prove that effort always beat talent , recovery from setback
 Started with 2.79 GPA due to life's obstacle. But I'm using 30 months to master Data Structures, Algorithms, and Problem Solving through:
 - Rigorous coursework (CSE110 → CSE111 → CSE220 → CSE221)
 - Systematic competitive programming (70+ LeetCode problems)
-- Real portfolio projects 
+- Relavant and applied projects 
 - Deep learning notes on fundamentals
 
 This repository documents my journey of making a comeback, my ability to learn from my mistakes.
@@ -55,9 +55,10 @@ Phase 4 :Specialization + Interview prep
 ## What I Bring to CERN
 
 - Problem-solving discipline — Systematic approach to hard problems
+- Resilience to
 - Data structures mastery — Trees, graphs, heaps, hashing
 - Algorithm expertise — Complexity analysis, design paradigms
-- Real projects — End-to-end implementation experience
+- Real projects —  experience
 - Adaptable mindset — Recovered from setback through focused effort and consistent learning
 
 ------------------------------------------------------------------------------------------
