@@ -55,7 +55,7 @@ Phase 4 :Specialization + Interview prep
 ## What I Bring to CERN
 
 - Problem-solving discipline — Systematic approach to hard problems
-- Resilience to
+- Resilience 
 - Data structures mastery — Trees, graphs, heaps, hashing
 - Algorithm expertise — Complexity analysis, design paradigms
 - Real projects —  experience
